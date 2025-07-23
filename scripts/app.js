@@ -6,7 +6,7 @@ window.addEventListener('scroll', () => {
 
 
     if (nowScrollTop > lastScrollTop) {
-        navabar.style.top = '-80px'
+        navabar.style.top = '-90px'
     } else {
         navabar.style.top = '0px'
     }
