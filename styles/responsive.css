@@ -103,8 +103,6 @@
 
   .header-right {
     display: block;
-    /* height: 88rem; */
-    width: 108rem;
   }
   .header__content-wrapper {
     top: -12rem;
@@ -161,15 +159,15 @@
   }
 
   .mens-gallery__slids1:hover .slids__hover {
-    transform: translateY(-25rem);
+    transform: translateY(-24.5rem);
   }
 
   .mens-gallery__slids2:hover .slids__hover {
-    transform: translateY(-26rem);
+    transform: translateY(-24.5rem);
   }
 
   .mens-gallery-2__slids1:hover .slids__hover {
-    transform: translateY(-25rem);
+    transform: translateY(-24.5rem);
   }
 
   .mens-gallery-2__slids2:hover .slids__hover {
@@ -256,7 +254,7 @@
   }
 
   .mens-gallery__slids2:hover .slids__hover {
-    transform: translateY(-35rem);
+    transform: translateY(-33rem);
   }
 
   .mens-gallery-2__slids1:hover .slids__hover {
@@ -264,7 +262,7 @@
   }
 
   .mens-gallery-2__slids2:hover .slids__hover {
-    transform: translateY(-33rem);
+    transform: translateY(-33.5rem);
   }
 
   .mens-gallery-2 {
@@ -325,7 +323,7 @@
   }
 
   .mens-gallery__slids2:hover .slids__hover {
-    transform: translateY(-36rem);
+    transform: translateY(-34rem);
   }
 
   .mens-gallery-2__slids1:hover .slids__hover {

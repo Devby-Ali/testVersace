@@ -226,7 +226,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8rem;
+  margin-top: 9rem;
 }
 
 .header-left {
@@ -239,7 +239,6 @@ body {
 
 .header-right {
   display: none;
-  backdrop-filter: grayscale(100%);
 }
 
 .img-right {
@@ -632,11 +631,11 @@ body {
 }
 
 .mens-gallery__slids1:hover .slids__hover {
-  transform: translateY(-18rem);
+  transform: translateY(-18.5rem);
 }
 
 .mens-gallery__slids2:hover .slids__hover {
-  transform: translateY(-20rem);
+  transform: translateY(-18.5rem);
 }
 
 .mens-gallery__desc {
@@ -682,11 +681,11 @@ body {
 }
 
 .mens-gallery-2__slids1:hover .slids__hover {
-  transform: translateY(-19rem);
+  transform: translateY(-18.5rem);
 }
 
 .mens-gallery-2__slids2:hover .slids__hover {
-  transform: translateY(-19rem);
+  transform: translateY(-18.5rem);
 }
 
 .mens-gallery-2__img2 {
