@@ -87,6 +87,11 @@
   .newsletter__email {
     width: 50%;
   }
+
+  .footer__copyright {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   
 
 }
