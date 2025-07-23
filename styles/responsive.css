@@ -274,6 +274,11 @@
 }
 
 @media (min-width: 1200px) {
+
+  .nav {
+    padding: 0 6rem;
+  }
+
   .header-left {
     height: 43%;
     width: 43%;
@@ -338,6 +343,12 @@
 }
 
 @media (min-width: 1400px) {
+
+  .nav {
+    padding: 0 16rem;
+    height: 9rem;
+  }
+
   .header-left {
     height: 36%;
     width: 36%;
