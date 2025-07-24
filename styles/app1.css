@@ -563,6 +563,7 @@ body {
   gap: 0.2rem;
   max-width: 95rem;
   margin: 0 auto;
+  margin-bottom: -3.35rem;
 }
 
 .mens-gallery__content {
@@ -578,12 +579,32 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -10rem;
+  top: -14rem;
 }
 
 .mens-gallery__title {
   font-size: 3rem;
   margin-bottom: 1.7rem;
+  color: #000;
+}
+
+.mens-gallery__link {
+  width: 25rem;
+  height: 4rem;
+  background-color: #000;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  transition: all ease-in-out 200ms;
+  font-family: "Poppins Medium";
+}
+
+.mens-gallery__link:hover {
+  background-color: var(--app-bg-color);
+  color: #000;
+  font-family: "Poppins Bold";
 }
 
 .mens-gallery__slids1,
@@ -592,16 +613,16 @@ body {
 }
 
 .mens-gallery__img1 {
-  max-width: 41rem;
+  max-width: 41.1rem;
   max-height: 17rem;
-  margin-bottom: 0.5rem;
   overflow: hidden;
 }
 
+/* ==================================================================== */
+
 .mens-gallery__img2 {
-  max-width: 41rem;
+  max-width: 41.1rem;
   max-height: 17rem;
-  margin-bottom: 0.5rem;
   overflow: hidden;
 }
 
@@ -664,8 +685,6 @@ body {
   max-width: 95rem;
   margin: 0 auto;
   position: relative;
-  bottom: 11rem;
-  margin-bottom: -6rem;
 }
 
 .mens-gallery-2__slids1,
@@ -681,10 +700,17 @@ body {
   transform: translateY(-18.5rem);
 }
 
-.mens-gallery-2__img2 {
-  max-width: 41.5rem;
+/* =============================================================================== */
+
+.mens-gallery-2__img1 {
+  max-width: 41rem;
   max-height: 17rem;
-  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.mens-gallery-2__img2 {
+  max-width: 41rem;
+  max-height: 17rem;
   overflow: hidden;
 }
 
@@ -710,40 +736,11 @@ body {
 
 .mens-gallery-2__content {
   max-width: 57rem;
-  position: relative;
-  top: 3.9rem;
+  display: none;
 }
 
 .mens-gallery-2__pic {
   width: 100%;
-}
-
-.mens-gallery-2__wrraper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: -4.4rem;
-}
-
-.mens-gallery-2__link {
-  width: 25rem;
-  height: 4rem;
-  background-color: #000;
-  color: var(--white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.7rem;
-  transition: all ease-in-out 200ms;
-  font-family: "Poppins Medium";
-}
-
-.mens-gallery-2__link:hover {
-  background-color: var(--app-bg-color);
-  color: #000;
-  font-family: "Poppins Bold";
 }
 
 /*
@@ -782,7 +779,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -11rem;
+  top: -14rem;
 }
 
 .womens-gallery__title {
