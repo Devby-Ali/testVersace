@@ -935,7 +935,6 @@ body {
 .footer__line {
   display: block;
   margin: 0 auto;
-  width: 95%;
   height: 0.1rem;
   background-color: #656565;
 }
@@ -946,13 +945,14 @@ body {
 }
 
 .footer__list {
+  padding: .5rem 0 1rem 0;
 }
 
 .footer__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.8rem 0;
+  padding: 2rem 0;
 }
 
 .footer__link {
@@ -980,7 +980,7 @@ body {
 }
 
 .footer__copyright-text {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-top: 2.5rem;
 }
 
