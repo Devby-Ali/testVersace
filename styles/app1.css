@@ -341,28 +341,6 @@ body {
   transition: all 250ms ease-in-out;
 }
 
-.mobile-menu__link::before {
-  content: " ";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 0;
-  height: 0.3rem;
-  border-radius: 5rem;
-  background-color: var(--white);
-  transition: all 250ms ease-in-out;
-}
-
-.mobile-menu__link:hover {
-  padding-left: 2.2rem;
-}
-
-.mobile-menu__link:hover::before {
-  width: 1.6rem;
-}
-
 .mobile-menu__link-yellow {
   color: #ffee00;
 }
