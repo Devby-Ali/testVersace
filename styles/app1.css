@@ -83,7 +83,7 @@ body {
 */
 
 .header {
-  margin-bottom: 16rem
+  margin-bottom: 16rem;
 }
 
 .nav {
@@ -254,6 +254,7 @@ body {
   color: var(--white);
   margin-bottom: 1.5rem;
   cursor: pointer;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .link__wrapper {
@@ -609,8 +610,6 @@ body {
 
 .mens-gallery__link:hover {
   background-color: var(--app-bg-color);
-  color: #000;
-  font-family: "Poppins Bold";
 }
 
 .mens-gallery__slids1,
@@ -987,7 +986,7 @@ body {
 
 .dev-container {
   position: relative;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0.02em;
   display: flex;
@@ -1006,7 +1005,7 @@ body {
 /* GitHub Link */
 .github-link {
   transition: letter-spacing 0.3s;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 0.3rem;
   cursor: pointer;
   white-space: nowrap;
@@ -1057,6 +1056,6 @@ body {
 .dev-text {
   white-space: nowrap;
   font-size: 1.2rem;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.025em;
 }
