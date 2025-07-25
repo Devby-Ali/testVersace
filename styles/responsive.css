@@ -235,15 +235,7 @@
 @media (min-width: 992px) {
 
   .header {
-    margin-bottom: 8rem;
-  }
-
-  .section-title {
-    padding: 3rem 2rem 2rem 2rem;
-  }
-
-  .section-title__highlights {
-    padding: 6rem 2rem 2rem 2rem;
+    margin-bottom: 14rem;
   }
 
   .nav__btn {
@@ -258,7 +250,6 @@
   .arrow_left {
     top: 18rem;
   }
-
 
   .highlight__title {
     font-size: 4rem;
@@ -354,18 +345,6 @@
 
 @media (min-width: 1200px) {
 
-  .header {
-    margin-bottom: 8rem;
-  }
-
-  .section-title {
-    padding: 2rem 2rem 2rem 2rem;
-  }
-
-  .section-title__highlights {
-    padding: 10rem 2rem 2rem 2rem;
-  }
-
   .nav {
     padding: 0 6rem;
   }
@@ -439,18 +418,6 @@
 }
 
 @media (min-width: 1400px) {
-
-  .header {
-    margin-bottom: 6rem;
-  }
-
-  .section-title {
-    padding: 2rem 2rem 2rem 2rem;
-  }
-
-  .section-title__highlights {
-    padding: 10rem 2rem 2rem 2rem;
-  }
 
   .nav {
     padding: 0 14rem;
