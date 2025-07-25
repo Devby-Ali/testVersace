@@ -107,17 +107,21 @@
 }
 
 @media (min-width: 768px) {
+  
   .header {
+    height: 80vh;
     margin-bottom: 0;
   }
 
   .header-left {
-    max-height: 88rem;
+    width: 50%;
   }
 
   .header-right {
     display: block;
+    width: 50%;
   }
+
   .header__content-wrapper {
     top: -12rem;
   }
@@ -227,6 +231,7 @@
 
 @media (min-width: 992px) {
   .header {
+    height: 100vh;
     margin-bottom: 6rem;
   }
 

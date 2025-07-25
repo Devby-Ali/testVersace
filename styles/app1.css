@@ -223,7 +223,6 @@ body {
 }
 
 .header-left {
-  max-height: 57rem;
 }
 
 .img-left {
@@ -243,7 +242,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
+  margin-top: -20rem;
 }
 
 .header__content {
