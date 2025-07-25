@@ -1,10 +1,14 @@
 @media (min-width: 380px) {
+
+  /* .header {
+    height: 76vh;
+  } */
+
   .header__content-wrapper {
     top: -5rem;
   }
 
   .mens-gallery__content {
-    /* position: sticky; */
     top: 10rem;
   }
 }
@@ -107,11 +111,6 @@
 }
 
 @media (min-width: 768px) {
-  
-  .header {
-    height: 80vh;
-    margin-bottom: 0;
-  }
 
   .section-title {
     padding: 5rem 2rem 3rem 2rem;
@@ -234,17 +233,17 @@
 }
 
 @media (min-width: 992px) {
+
   .header {
-    height: 100vh;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
   }
 
   .section-title {
-    padding: 6rem 2rem 3rem 2rem;
+    padding: 3rem 2rem 2rem 2rem;
   }
 
-  .header__content-wrapper {
-    margin-top: -30rem;
+  .section-title__highlights {
+    padding: 6rem 2rem 2rem 2rem;
   }
 
   .nav__btn {
@@ -354,11 +353,23 @@
 }
 
 @media (min-width: 1200px) {
+
+  .header {
+    margin-bottom: 8rem;
+  }
+
+  .section-title {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  .section-title__highlights {
+    padding: 10rem 2rem 2rem 2rem;
+  }
+
   .nav {
     padding: 0 6rem;
   }
   
-
   .header-left {
     height: 43%;
     width: 43%;
@@ -428,6 +439,19 @@
 }
 
 @media (min-width: 1400px) {
+
+  .header {
+    margin-bottom: 6rem;
+  }
+
+  .section-title {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  .section-title__highlights {
+    padding: 10rem 2rem 2rem 2rem;
+  }
+
   .nav {
     padding: 0 14rem;
     height: 9rem;
@@ -477,13 +501,5 @@
   .mens-gallery-2__img2,
   .mens-gallery-2__img1 {
     max-height: 30.9rem;
-  }
-}
-
-
-@media (min-width: 1500px) {
-  
-  .header__content-wrapper {
-    margin-top: -20rem;
   }
 }

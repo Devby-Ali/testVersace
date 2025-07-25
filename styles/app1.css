@@ -83,9 +83,7 @@ body {
 */
 
 .header {
-  height: 100vh;
-  overflow: hidden;
-  margin-bottom: 6rem;
+  margin-bottom: 16rem
 }
 
 .nav {
@@ -223,6 +221,7 @@ body {
 }
 
 .header-left {
+  display: block;
 }
 
 .img-left {
