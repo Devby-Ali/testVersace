@@ -300,14 +300,17 @@ body {
   top: 6rem;
   left: -32rem;
   bottom: 0;
-  width: 32rem;
-  background-color: var(--app-bg-color);
   transition: all 250ms ease-in-out;
   z-index: 100;
+  width: 32rem;
+  background-color: var(--app-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mobile-menu__wrapper {
-  padding: 2.5rem;
+  padding: 3rem 2.5rem 0 2.5rem;
 }
 
 .nav-menu--open {
@@ -327,7 +330,7 @@ body {
 }
 
 .mobile-menu__item {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .mobile-menu__link {
@@ -384,14 +387,14 @@ body {
 }
 
 .nav-menu__links_wrapper {
-  padding: 2rem 4rem;
+  padding: 5rem 4rem 12rem 4rem;
   background-color: #000;
 }
 
 .nav-menu__links__txt {
   color: #ffffff;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .nav-menu__links {
