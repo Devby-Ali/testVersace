@@ -23,7 +23,7 @@ My second project is a **landing page** designed to showcase a store website (in
 ## Deployment
 
 This app is deployed online and accessible at:
-[Camping web - Live Demo](https://devby-ali.github.io/firstLanding/)
+[Camping web - Live Demo](https://devby-ali.github.io/testVersace/)
 
 ## Folder Structure
 
